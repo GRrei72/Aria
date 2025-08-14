@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aria</title>
+  <link rel="stylesheet" href="style.css"> <!-- Link to external CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-lite/1.3.0/material.indigo-pink.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/3.0.1/iconfont/material-icons.css">
+      <link rel="icon" type="img" href="imagen33.png"/> 
+</head>
+<body>
+  
+  
+    <!-- Header with Navigation Menu -->
+    <div class="header">
+        <button class="menu-button" onclick="toggleMenu()">☰</button>
+ <h5 align="right"> &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Aria &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;</h5>
+        <nav id="menu" class="hidden">
+<ul>
+<li><a href="homepage.html">Home</a></li>
+  <li>
+  <li><a href="image.html">Image Generation</a></li>
+  <li><a href="feedback.html">Feedback</a></li>
+  
+  
+  <li><a href="contact.html">Contact</a></li>
+    <li><a href="about.html">About</a></li> 
+</ul>
+        </nav>
+    </div>
+
+    <!-- Chat Container -->
+    <div class="container">
+        <div id="chatbox" class="chatbox">
+            <!-- Bot's initial greeting -->
+            <div class="bot-message">Aria es una inteligencia artificial avanzada creada con el propósito específico de brindar apoyo emocional y orientación a adolescentes que enfrentan desafíos relacionados con sus sentimientos, relaciones y bienestar mental. En un mundo donde los jóvenes están cada vez más expuestos a presiones sociales, académicas y personales, Aria surge como una aliada confiable, accesible y empática, diseñada para acompañar a los adolescentes en su camino hacia la autocomprensión y la estabilidad emocional.
+</div>
+        </div>
+        <div class="input-area">
+            <input id="chatInput" type="text" placeholder="Type your message">
+            <button id="sendButton" onclick="sendMessage()">
+                <span class="material-icons">send</span>
+            </button>
+        </div>
+    </div>
+    <script src="main.js"></script> <!-- Link to external JavaScript -->
+</body>
+</html>
